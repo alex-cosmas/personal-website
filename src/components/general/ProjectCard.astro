@@ -1,7 +1,8 @@
 ---
 import { IProjectDetails } from "@types";
 const { projectDetail } = Astro.props as IProjectDetails;
-const { title, thumbnail, liveUrl, githubUrl, summary } = projectDetail;
+const { title, thumbnail, liveUrl, githubUrl, projectTitle, projectSummary } =
+  projectDetail;
 ---
 
 <div class="flex">

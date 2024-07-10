@@ -27,7 +27,8 @@ export interface IProject {
   thumbnail: string;
   githubUrl: string;
   liveUrl: string;
-  summary: string;
+  projectTitle: string;
+  projectSummary: string;
 }
 export interface IProjects {
   projects: IProject[];
